@@ -40,7 +40,7 @@ namespace EntityFrameworkCore
             }
             foreach(var f in context.Flights)
             {
-                Console.WriteLine($"Flight : {f.Number}. From : {f.DepartureCity,15} to {f.ArrivalCity}");
+                Console.WriteLine($"Flight : {f.Number}. From : {f.DepartureCity,15} to {f.ArrivalCity}  Rating : {f.Rating}");
             }
 
         }
