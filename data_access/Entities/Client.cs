@@ -15,5 +15,6 @@ namespace EntityFrameworkCore.Entities
         public string Email { get; set; }
         public DateTime? Birthday { get; set; }
         public ICollection<Flight> Flights { get; set; }
+
     }
 }

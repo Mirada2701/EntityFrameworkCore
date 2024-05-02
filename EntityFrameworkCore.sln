@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore", "EntityFrameworkCore\EntityFrameworkCore.csproj", "{CAB94C58-CFA6-4F72-A5BF-7C9758DEBC4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore", "EntityFrameworkCore\EntityFrameworkCore.csproj", "{CAB94C58-CFA6-4F72-A5BF-7C9758DEBC4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data_access", "data_access\data_access.csproj", "{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CAB94C58-CFA6-4F72-A5BF-7C9758DEBC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAB94C58-CFA6-4F72-A5BF-7C9758DEBC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAB94C58-CFA6-4F72-A5BF-7C9758DEBC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
