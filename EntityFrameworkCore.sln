@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore", "EntityFrameworkCore\EntityFrameworkCore.csproj", "{CAB94C58-CFA6-4F72-A5BF-7C9758DEBC4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data_access", "data_access\data_access.csproj", "{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data_access", "data_access\data_access.csproj", "{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_airplane_db", "wpf_airplane_db\wpf_airplane_db.csproj", "{0C75DF89-6123-44BA-9D70-88B67BA2C607}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4F08A7-2847-4539-8DD8-DC5C7757D2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C75DF89-6123-44BA-9D70-88B67BA2C607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C75DF89-6123-44BA-9D70-88B67BA2C607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C75DF89-6123-44BA-9D70-88B67BA2C607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C75DF89-6123-44BA-9D70-88B67BA2C607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
