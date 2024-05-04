@@ -78,8 +78,16 @@ namespace EntityFrameworkCore
                 .HasMany(f => f.Clients)
                 .WithMany(c => c.Flights);
 
+            /*one to one*/
+            modelBuilder.Entity<Client>()
+                .HasOne(c => c.Credentials)
+                .WithOne(c => c.Client)
+                .HasForeignKey<Client>(c => c.Id);
+
             modelBuilder.SeedAirplanes();
             modelBuilder.SeedFlights();
+            modelBuilder.SeedCredentials();
+            modelBuilder.SeedClients();
         }
     }
 }

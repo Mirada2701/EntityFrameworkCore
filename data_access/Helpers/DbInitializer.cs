@@ -1,4 +1,5 @@
-﻿using EntityFrameworkCore.Entities;
+﻿using data_access.Entities;
+using EntityFrameworkCore.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -69,5 +70,57 @@ namespace EntityFrameworkCore.Helpers
                 }
             });
         }
+        public static void SeedCredentials(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Credentials>().HasData(new Credentials[]
+            {
+                new Credentials()
+                {
+                     Id = 1,
+                     Login = "admin",
+                     Password = "admin"
+                },
+                new Credentials()
+                {
+                     Id = 2,
+                     Login = "user",
+                     Password = "user"
+                },
+                new Credentials()
+                {
+                     Id = 3,
+                     Login = "designer",
+                     Password = "designer"
+                }
+            });
+        }
+        public static void SeedClients(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Client>().HasData(new Client[]
+          {
+                new Client()
+                {
+                      Id = 1,
+                      Name = "Victor",
+                      Birthday = new DateTime(2000,5,12),
+                      Email = "victor@gmail.com"
+                },
+                new Client()
+                {
+                      Id = 2,
+                      Name = "Ivanka",
+                      Birthday = new DateTime(2005,5,25),
+                      Email = "ivanka@gmail.com"
+                },
+                new Client()
+                {
+                      Id = 3,
+                      Name = "Oleg",
+                      Birthday = new DateTime(2001,5,12),
+                      Email = "oleg@gmail.com"
+                }
+          });
+        }
+        
     }
 }
